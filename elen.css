@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    position: relative;
+}
+
+body {
+    background-image: url(https://freight.cargo.site/t/original/i/66dbaa0c7099d990278de9868581305d51bac6c56e79380d244fef2367ff0068/R5_04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 36, 36, 0.315);
+    position: fixed;
+}
+
+header {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+header>p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tex p {
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 700px;
+    left: 80px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: justify;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.vo {
+    height: 100px;
+    left: 77px;
+
+}
+
+
+
